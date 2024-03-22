@@ -390,7 +390,7 @@ create_partition() {
         BLANK2="650" # Rootfs partition could be set after [ 1270 MiB ] of the total disk, [ 1270-108-512=650 MiB ]
     else
         BLANK1="68"
-        BOOT="864"    # S905x3: A total of [ 1120 MiB ] can be used in this block, and the remaining [ 864 MiB ] can be used.
+        BOOT="256"    # S905x3: A total of [ 1120 MiB ] can be used in this block, and the remaining [ 864 MiB ] can be used.
         BLANK2="1026" # Rootfs partition could be set after [ 1350 MiB ] of the total disk.
     fi
 
